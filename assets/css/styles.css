@@ -1,0 +1,67 @@
+nav {
+    background: white;
+    border-bottom: solid;
+    border-color: #e8e8e8;
+}
+
+.navbar {
+    background: white;
+    text-align: center;
+}
+
+.display-4 {
+    background: teal;
+}
+
+body {
+    background-color: lightgrey;
+}
+
+.header {
+    color: white;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.box {
+    background: teal;
+    color: white;
+    border: groove;
+    border-width: 10px;
+    border-color: teal;
+    height: auto;
+    width: 100%;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    margin-bottom: -8px;
+    font-family: Georgia, serif;
+    text-align: center;
+}
+
+.intro {
+    background: white;
+    object-fit: cover;
+    font-size: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.intro2 {
+    background: white;
+    color: teal;
+    font-family: Georgia, serif;
+    padding-top: 20px;
+}
+
+.word {
+    color: teal;
+    font-size: 40px;
+}
+
+footer{
+    background-color: gray;
+    color: lightgrey;
+    text-align: center;
+}
