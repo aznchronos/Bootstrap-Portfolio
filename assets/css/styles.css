@@ -22,7 +22,7 @@ body {
 }
 
 img {
-    max-width: 100%;
+    width: 300px;
     height: auto;
 }
 
@@ -42,17 +42,15 @@ img {
 }
 
 .intro {
-    background: white;
     object-fit: cover;
     font-size: 20px;
     padding-top: 40px;
     padding-bottom: 40px;
 }
 .intro2 {
-    background: white;
-    color: teal;
     font-family: Georgia, serif;
     padding-top: 20px;
+    color: teal;
 }
 
 .word {
