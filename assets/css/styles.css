@@ -22,7 +22,6 @@ body {
 }
 
 img {
-    width: 300px;
     height: auto;
 }
 
@@ -49,7 +48,6 @@ img {
 }
 .intro2 {
     font-family: Georgia, serif;
-    padding-top: 20px;
     color: teal;
 }
 
