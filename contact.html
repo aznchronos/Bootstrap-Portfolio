@@ -27,17 +27,41 @@
 </nav>
 <body>
     <br>
-    <div class="container">
+    <div class="container pt-3">
         <div class="row">
             <div class="col-md-1"></div>
-            <div class="col-md 10 bg-white intro2"><h2>Contact</h2>
-                <hr style="margin-left: 10px; margin-right: 10px;">
+            <div class="col-10 bg-white pb-3 intro">
+                <div class="intro2"><h2>Contact</h2>
+                    <hr style="margin-left: 10px; margin-right: 10px;">
+                </div>
+                <form action="process.php" method="POST">
+                    <div>
+                        <label>Name</label>
+                        <!--Name Input for Invisibility... Surprise!-->
+                        <input type="text" class="w-100" name="FullName" value="John Smith"
+                        onblur="if(this.value==''){ this.value='John Smith'; this.style.color='#BBB';}"
+                        onfocus="if(this.value=='John Smith'){ this.value=''; this.style.color='#000';}"
+                        style="color:#BBB;">
+                    </div>
+                    <br>
+                    <div>
+                        <label>Email</label>
+                        <!--Email Input for Invisibility...Surprisex2?-->
+                        <!--don't get me in trouble for that last Surprise <3 -->
+                        <input type="email" class="w-100" name="email" value="example@gmail.com"
+                        onblur="if(this.value==''){ this.value='example@gmail.com'; this.style.color='#BBB';}"
+                        onfocus="if(this.value=='example@gmail.com'){ this.value=''; this.style.color='#000';}"
+                        style="color:#BBB;" />
+                    </div>
+                    <br>
+                    <div>
+                        <label>Message</label>
+                        <textarea rows="4" class="w-100" name="message"></textarea>
+                    </div>
+                    <br>
+                    <input class="submit" type="submit" name="submit" value="Submit">
+                </form>
             </div>
-            <div class="col-md-1"></div>
-        </div>
-        <div class="row">
-            <div class="col-md-1"></div>
-            <div class="col-10 intro"></div>
             <div class="col-md-1"></div>
         </div>
 </body>

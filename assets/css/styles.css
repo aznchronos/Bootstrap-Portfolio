@@ -21,10 +21,6 @@ body {
     color: white;
 }
 
-img {
-    height: auto;
-}
-
 .box {
     background: teal;
     color: white;
@@ -43,8 +39,6 @@ img {
 .intro {
     object-fit: cover;
     font-size: 20px;
-    padding-top: 40px;
-    padding-bottom: 40px;
 }
 .intro2 {
     font-family: Georgia, serif;
